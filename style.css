@@ -1,0 +1,310 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+::selection {
+    background-color: #12ccac;
+    color: white;
+  }
+  
+  ::-moz-selection {
+    background-color: #12ccac;
+    color: white;
+  }
+  
+  ::-webkit-selection {
+    background-color: #12ccac;
+    color: white;
+  }
+
+.logo {
+width: 268px;
+height: 33px;
+padding: 12px ;
+
+}
+
+header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+padding: 8px;
+list-style: none;
+
+
+}
+
+header ul li .menu-item {
+    text-decoration:none;
+    color: #ababab;
+}
+
+header ul li .menu-item-about {
+text-decoration: none;
+color:#00c3a5 ;
+
+}
+
+.menu-item:hover {
+color: #00c3a5;
+
+} 
+
+.lead__logo {
+display: block;
+margin: 0 auto;
+}
+main h1 {
+text-align: center;
+color: #00c3a5;
+margin: 30px;
+font-family: Work Sans,Arial,sans-serif;
+font-size: 20px;
+
+}
+
+.intro {
+display: flex;
+justify-content: space-between;
+font-size: 16px;
+margin:0px 200px 0px 200px ;
+
+}
+
+.intro p {
+    margin: 50px;
+    color: #7c7c7c;
+
+}
+
+.join {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    font-size: 25px;
+    }
+    
+    #button {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content:center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+    
+    }
+    
+    button {
+    background-color: rgb(13, 130, 208);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+    }
+    
+    
+    
+    
+    
+    hr {
+        color: rgb(197, 194, 194);
+    
+    }
+    
+    .footer {
+        display: flex;
+        margin-left: 200px;
+        margin-right: 200px;
+        justify-content: center;
+        font-size: 12px;
+        color: grey;
+    
+    
+    }
+
+    #card1 {
+        border: 1px solid rgb(255, 255, 255);
+        background-color: #00b39b;
+        padding: 20px;
+        margin: 20px;
+        width: 355px;
+        height: 300px;
+        float: left;
+        text-align: center;
+        font-size: 24px;
+        border-radius: 15px;
+        color: white;
+        
+    }
+
+    #card2 {
+        border: 1px solid rgb(255, 255, 255);
+        background-color: #3d83df;
+        padding: 20px;
+        margin: 20px;
+        width: 355px;
+        height: 300px;
+        float: left;
+        text-align: center;
+        font-size: 24px;
+        border-radius: 15px;
+        color: white;
+    }
+
+    #card3 {
+        border: 1px solid rgb(255, 255, 255);
+        background-color: #1b2734;
+        padding: 20px;
+        margin: 20px;
+        width: 355px;
+        height: 300px;
+        float: left;
+        text-align: center;
+        font-size: 24px;
+        border-radius: 15px;
+        color: white;
+    }
+
+    #cards {
+display: flex;
+justify-content: center;
+margin: 0 200px 0 200px;
+
+
+    }
+
+    #card1 select {
+        border: 0;
+background-color: #00b39b;
+color: white;
+    }
+
+    option {
+background-color: white;
+color: black;
+    }
+
+   #card1 select  {
+    margin-top: 130px;
+    font-size: 20px ;
+    text-align: left;
+  }
+
+
+
+
+  #card2 select {
+    border: 0;
+background-color: #3d83df;
+color: white;
+}
+
+#card2 select  {
+margin-top: 130px;
+font-size: 20px ;
+text-align: left;
+}
+
+#card3 select {
+    border: 0;
+background-color: #1b2734;
+color: white;
+}
+
+ #select1  {
+margin-top: 90px;
+font-size: 20px ;
+text-align: left;
+}
+
+#select2  {
+    margin-top: 20px;
+    font-size: 20px ;
+    text-align: left;
+    }
+    
+   h2 {
+text-align: left;
+font-size: 24px;
+margin-top: 30px;
+
+  }
+
+  #cards p {
+text-align: left;
+font-size: 20px;
+margin-top: 20px;
+
+  }
+
+  #cards img {
+    float: left;
+
+  }
+
+  #cards select {
+    float: left;
+    font-size: 20px;
+
+  }
+
+  #weare {
+    color:#00c3a5 ;
+font-size: 30px;
+margin-left: 230px;
+margin-top: 20px;
+margin-bottom: 50px;
+
+  }
+
+
+  .manylogos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+       list-style: none;
+   margin: -100px 200px 0px 200px;
+  
+   ;
+   
+   
+}
+
+
+ ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+ .manylogos img {
+    filter: grayscale(100%);
+  
+  }
+
+  .manylogos li img:hover {
+ filter:none;
+  }
+
+
+  
